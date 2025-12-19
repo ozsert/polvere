@@ -80,7 +80,7 @@
 }
  a {
      text-decoration: none;
-     color: #666666;
+     color: #000;
 }
  body, td, th, input, textarea, select, a {
      font-size: 13px;
@@ -101,7 +101,7 @@
      width: 94%;
      height: 80px;
      resize: none;
-     color: #777777;
+     color: #000;
      background-color: transparent;
      transition-duration: 0.2s, 0.2s;
      -webkit-transition-duration: 0.2s, 0.2s;
@@ -110,7 +110,7 @@
  .textbox {
      font-family: "Montserrat", sans-serif !important;
      border: 1px solid #ccc;
-     color: #666666;
+     color: #000;
      display: block;
      font-size: 12px;
      width: 100%;
@@ -210,7 +210,7 @@
      height: 40px;
      padding-left: 10px;
      border: 1px solid #ddd;
-     color: #777;
+     color: #000;
      background: transparent;
 }
  textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
@@ -225,7 +225,7 @@
      padding: 0 17px 0 10px;
      line-height: 30px;
      border: 1px solid #ddd;
-     color: #777;
+     color: #000;
 }
  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
      padding: 0 10px;
@@ -1596,7 +1596,7 @@
      background: none;
 }
  .Firsatprev:hover {
-     color: #616c70;
+     color: #000;
 }
  .Firsatnext {
      display: none;
@@ -1611,7 +1611,7 @@
      background: none;
 }
  .Firsatnext:hover {
-     color: #616c70;
+     color: #000;
 }
  .firsatUrunleriItem {
      width: 230px;
@@ -2057,7 +2057,7 @@
      display: block;
      text-indent: 0px;
      font-size: 12px !important;
-     color: #5f5f5f;
+     color: #000;
      transition: 0.3s;
      background-color: #fff;
 }
@@ -2071,7 +2071,7 @@
 }
  ul.KatMenu1 > li > ul > li:hover > a {
      color: #fff !important;
-     background-color: #616c70;
+     background-color: #000;
      text-indent: 20px;
      transition: 0.3s;
 }
@@ -2080,7 +2080,7 @@
 }
  ul.KatMenu1 > li > ul > li > ul > li:hover > a {
      color: #fff !important;
-     background-color: #616c70;
+     background-color: #000;
      text-indent: 20px;
      transition: 0.3s;
 }
@@ -2148,11 +2148,11 @@
 }
  .baglanButton {
      background: #616c70;
-     border-color: #616c70;
+     border-color: #000;
 }
  .baglanButton:hover {
      background: transparent;
-     color: #616c70;
+     color: #000;
 }
  .Basketstep ul li.pasif i {
      color: #b5b5b5 !important;
@@ -2345,35 +2345,37 @@
  .productItem .productName {
      padding: 0px 0px;
      clear: both;
-     margin: 10px 0 10px 0;
-     text-align: left;
-     padding-right: 25px;
+     margin: 15px 0 5px 0;
+     text-align: center;
+     padding-right: 0px;
 }
  .productItem .productName * {
      display: block;
      font-size: 13px;
      line-height: 16px;
-     height: 16px;
+     max-height: 32px;
      color: #2f2f2f;
      font-weight: 400;
-     text-align: left;
+     text-align: center;
      letter-spacing: 1px;
      overflow: hidden;
      text-overflow: ellipsis;
-     white-space: nowrap;
+     white-space: normal;
+     margin: 0 auto;
 }
  .productModuleItem2 .modulename, .productModuleItem .modulename, .productItem .modulename {
-     line-height: 100%;
      display: block;
      font-size: 14px;
      line-height: 17px;
-     height: 34px;
+     min-height: 34px;
      color: #000;
      font-weight: 600;
-     text-align: left;
+     text-align: center;
      letter-spacing: 1px;
      overflow: hidden;
      text-overflow: ellipsis;
+     white-space: normal;
+     margin: 0 auto;
 }
  .productItem .productImage {
      position: relative;
@@ -2415,33 +2417,33 @@
      margin: auto;
 }
  .productModuleItem2 .moduleprice2, .productModuleItem2 .moduleprice, .productModuleItem2 .productPrice, .productModuleItem .moduleprice2, .productModuleItem .moduleprice, .productModuleItem .productPrice, .productItem .moduleprice2, .productItem .moduleprice, .productItem .productPrice {
-     display: inline-block;
-     height: 16px;
-     float: left;
+     display: block;
+     width: 100%;
+     clear: both;
      text-align: center;
-     margin-bottom: 0px;
-     padding: 0 0px;
+     margin-bottom: 10px;
+     padding: 0;
+     overflow: hidden;
 }
  .productModuleItem2 .modulediscount, .productModuleItem2 .discountPrice, .productModuleItem .modulediscount, .productModuleItem .discountPrice, .productItem .modulediscount, .productItem .discountPrice {
      display: inline-block;
-     margin: 0px;
-     margin: 0 0 0 0px;
-     float: right;
+     margin: 0 5px;
+     vertical-align: middle;
 }
  .productModuleItem2 .modulediscount .modulekdv, .productModuleItem2 .modulediscount .discountKdv, .productModuleItem2 .discountPrice .modulekdv, .productModuleItem2 .discountPrice .discountKdv, .productModuleItem .modulediscount .modulekdv, .productModuleItem .modulediscount .discountKdv, .productModuleItem .discountPrice .modulekdv, .productModuleItem .discountPrice .discountKdv, .productItem .modulediscount .modulekdv, .productItem .modulediscount .discountKdv, .productItem .discountPrice .modulekdv, .productItem .discountPrice .discountKdv {
      display: none;
 }
  .productItem .discountPrice span {
      display: block;
-     font-weight: 500;
+     font-weight: 600;
      color: #000000;
-     font-size: 14px;
-     line-height: 16px;
+     font-size: 16px;
+     line-height: 20px;
 }
  .productModuleItem2 .moduleregular, .productModuleItem2 .regularPrice, .productModuleItem .moduleregular, .productModuleItem .regularPrice, .productItem .moduleregular, .productItem .regularPrice {
      display: inline-block !important;
-     margin: 0px;
-     float: left;
+     margin: 0 5px;
+     vertical-align: middle;
 }
  .productModuleItem2 .moduleregular .modulekdv, .productModuleItem2 .moduleregular .regularKdv, .productModuleItem2 .regularPrice .modulekdv, .productModuleItem2 .regularPrice .regularKdv, .productModuleItem .moduleregular .modulekdv, .productModuleItem .moduleregular .regularKdv, .productModuleItem .regularPrice .modulekdv, .productModuleItem .regularPrice .regularKdv, .productItem .moduleregular .modulekdv, .productItem .moduleregular .regularKdv, .productItem .regularPrice .modulekdv, .productItem .regularPrice .regularKdv {
      display: none !important;
@@ -2449,11 +2451,11 @@
  .productItem .regularPrice span {
      display: block !important;
      font-weight: 400;
-     color: #666666;
-     font-size: 11px;
-     line-height: 18px;
+     color: #999;
+     font-size: 13px;
+     line-height: 20px;
      text-decoration: line-through;
-     margin-right: 15px;
+     margin-right: 10px;
 }
  .productItem .productMarka {
      padding: 0 10px;
@@ -2462,15 +2464,15 @@
      float: left;
      width: 100%;
      text-align: left;
-     color: #666;
+     color: #000;
      font-size: 13px;
      font-weight: normal;
 }
  .productItem:hover .productName * {
-     color: #616c70;
+     color: #000;
 }
  .productModuleItem:hover .modulediscount *, .productItem:hover .discountPrice * {
-     color: #616c70;
+     color: #000;
 }
 /* ================================================ */
 /* ! URUN ICONLARI */
@@ -2544,7 +2546,7 @@
      text-align: center;
      right: 0;
      top: 0;
-     background: #616c70;
+     background: #000;
      color: #fff;
      font-size: 13px;
     font-weight: 500;
@@ -2624,7 +2626,7 @@
      width: 35px;
      height: 35px;
      border-radius: 100%;
-     background: #616c70;
+     background: #000;
      float: left;
 }
  .mycartIcon a {
@@ -2633,7 +2635,7 @@
      width: 35px;
      height: 35px;
      border-radius: 100%;
-     background: #616c70;
+     background: #000;
      float: left;
 }
  .examineIcon a {
@@ -2642,7 +2644,7 @@
      width: 35px;
      height: 35px;
      border-radius: 100%;
-     background: #616c70;
+     background: #000;
      float: left;
 }
  .examineIcon a:hover, .mycartIcon a:hover, .favori a:hover {
@@ -3084,7 +3086,7 @@
      height: 30px;
      line-height: 28px;
      border: 1px solid #ddd;
-     color: #777;
+     color: #000;
 }
  .blockSelect {
      float: right;
@@ -3109,7 +3111,7 @@
      font-size: 13px;
 }
  .brandlistselection > label > label:hover {
-     color: #616c70;
+     color: #000;
      background: url("images/checkbox2.png") left center no-repeat;
 }
  .brandlistselection > label > input[type=checkbox] + label {
@@ -3147,18 +3149,18 @@
      line-height: 38px;
      text-align: center;
      font-size: 16px;
-     color: #5f5f5f;
+     color: #000;
      border: 1px solid #e1e1e1;
      border-radius: 0;
      margin: 0 5px;
 }
  .pageNumber a:hover {
-     background-color: #5f5f5f;
+     background-color: #000;
      color: #ffffff;
      border: 1px solid #5f5f5f;
 }
  .pageNumber a.SelectedSayfa {
-     background-color: #616c70;
+     background-color: #000;
      color: #ffffff;
      border: 1px solid #616c70;
      opacity: 1;
@@ -3237,7 +3239,7 @@
      padding-left: 20px;
 }
  .KategoriFilitreLine > ul > li > ul > li > a {
-     color: #666666;
+     color: #000;
      font-size: 13px;
      display: inline-block;
 }
@@ -3319,11 +3321,11 @@
 }
  #back-to-top a {
      font-size: 35px;
-     color: #616c70;
+     color: #000;
      display: inline-block;
 }
  #back-to-top a:hover {
-     color: #888;
+     color: #000;
 }
  .cloudzoom-blank > div:last-child {
      display: none !important;
@@ -3412,7 +3414,7 @@
      font-size: 14px !important;
      margin-right: 5px;
      font-weight: 600;
-     color: #666;
+     color: #000;
 }
  .ProductDetailMain .PriceList {
      float: left;
@@ -3459,7 +3461,7 @@
  #divMarka .left_line, #divTedarikci .left_line, #divUrunStokAdedi .left_line, #divToplamStokAdedi .left_line, #divBarkod .left_line, #divParaPuan .left_line, #divTahminiTeslimatSuresi .left_line, #divIndirimOrani .left_line {
      display: inline-block;
      vertical-align: top;
-     color: #666;
+     color: #000;
      font-size: 14px;
      font-weight: 600;
      line-height: 14px;
@@ -3467,7 +3469,7 @@
  #divMarka .center_line, #divTedarikci .center_line, #divUrunStokAdedi .center_line, #divToplamStokAdedi .center_line, #divBarkod .center_line, #divParaPuan .center_line, #divTahminiTeslimatSuresi .center_line, #divIndirimOrani .center_line {
      display: inline-block;
      vertical-align: top;
-     color: #666;
+     color: #000;
      font-size: 14px;
      font-weight: 600;
      line-height: 14px;
@@ -3475,7 +3477,7 @@
  #divMarka .right_line, #divMarka .right_line *, #divTedarikci .right_line, #divTedarikci .right_line *, #divUrunStokAdedi .right_line, #divToplamStokAdedi .right_line, #divBarkod .right_line, #divParaPuan .right_line, #divTahminiTeslimatSuresi .right_line, #divIndirimOrani .indirimliOrani, #divIndirimOrani .indirimliOrani * {
      display: inline-block;
      vertical-align: top;
-     color: #666;
+     color: #000;
      font-size: 14px;
      font-weight: 400;
      line-height: 14px;
@@ -3507,7 +3509,7 @@
      text-transform: uppercase;
 }
  .ProductDetailMain #divIndirimOrani .right_line.indirimliOrani {
-     background-color: #616c70;
+     background-color: #000;
      font-weight: 600;
      font-size: 15px;
      color: #fff;
@@ -3670,12 +3672,12 @@
  .ProductDetailMain .size_box:hover {
      background: #616c70;
      color: #fff;
-     border-color: #616c70;
+     border-color: #000;
 }
  .ProductDetailMain .size_box.selected {
      background: #616c70;
      color: #fff;
-     border-color: #616c70;
+     border-color: #000;
 }
  .ProductDetailMain .size_box.nostok {
      background: #f1f1f1;
@@ -3733,7 +3735,7 @@
      font-weight: 400;
      display: block;
      text-align: left;
-     color: #666;
+     color: #000;
      line-height: 35px;
 }
  .ProductIcon .box1 i {
@@ -3756,10 +3758,10 @@
      line-height: 33px;
 }
  .ProductIcon .box1:hover {
-     color: #616c70;
+     color: #000;
 }
  .ProductIcon .box1:hover i:before {
-     color: #616c70;
+     color: #000;
 }
  .ProductDetail .product-social-icon-wrapper {
      display: block !important;
@@ -3850,7 +3852,7 @@
      float: left;
      width: 100%;
      font-size: 14px;
-     color: #616c70;
+     color: #000;
 }
  #divSatinAl .BasketBtn .Basketinp p {
      display: none;
@@ -4081,8 +4083,8 @@
      margin-right: 0;
 }
  .urunTab ul li a:hover {
-     color: #616c70;
-     border-color: #616c70;
+     color: #000;
+     border-color: #000;
 }
  .urunTab ul li.active {
      border-color: #616c70 !important;
@@ -4093,7 +4095,7 @@
      padding: 0;
      font-size: 13px;
      line-height: 1.3;
-     color: #666;
+     color: #000;
      background: #fff;
      border: 1px solid #fafafa;
 }
@@ -4108,7 +4110,7 @@
  .urunDetayPanel .yorumlarItemS1 {
      padding-bottom: 5px;
      font-size: 12px;
-     color: #666;
+     color: #000;
      border-bottom: 1px dashed #a09b98;
 }
  .urunDetayPanel .button {
@@ -4295,14 +4297,14 @@
      border-bottom: 1px solid #eee;
 }
  .Block_item.YanUyeGirisi ul li a {
-     color: #666;
+     color: #000;
      font-size: 14px;
      display: block;
      padding: 0 10px;
      line-height: 30px;
 }
  .Block_item.YanUyeGirisi a {
-     color: #666;
+     color: #000;
      font-size: 14px;
      display: block;
      padding: 0 10px;
@@ -4315,14 +4317,14 @@
      padding: 0;
 }
  .Block_item.YanUyeGirisi .Hosgeldiniz {
-     color: #666;
+     color: #000;
      font-size: 14px;
      display: block;
      padding: 0 10px;
      line-height: 30px;
 }
  .Block_item.YanUyeGirisi .ParaPuaniniz {
-     color: #666;
+     color: #000;
      font-size: 14px;
      display: block;
      padding: 0 10px;
@@ -4427,7 +4429,7 @@
      font-weight: 600;
 }
  .anasayfaBanner .btnincele:hover {
-     background-color: #616c70;
+     background-color: #000;
      border: 1px solid #616c70;
      color: #fff;
 }
@@ -4450,7 +4452,7 @@
      text-align: left;
 }
  .SepetBlockInfo .SepetBlockName a {
-     color: #666666;
+     color: #000;
      font-size: 11px;
 }
  .SepetBlockInfo .SepetBlockAdet {
@@ -4571,7 +4573,7 @@
      font-size: 18px;
 }
  .welcome a:hover {
-     color: #616c70;
+     color: #000;
 }
  .welcome .headerUyeGiris a {
      font-size: 0;
@@ -4663,7 +4665,7 @@
      line-height: 27px;
 }
  .headerSosyalMedya a:hover {
-     color: #616c70;
+     color: #000;
 }
  .usernav {
      display: none;
@@ -4739,7 +4741,7 @@
      padding: 11px 25px;
 }
  .navigation .HeaderMenu2 > li .altMenu ul li a:hover {
-     color: #616c70;
+     color: #000;
 }
  .navigation .HeaderMenu2 > li:hover .altMenu {
      display: block;
@@ -4791,7 +4793,7 @@
      display: none;
 }
  .navigation .HeaderMenu2 > li > ul > li > a:hover {
-     color: #616c70;
+     color: #000;
 }
  .navigation .HeaderMenu2 > li > ul > li ul li a {
      display: block;
@@ -4803,7 +4805,7 @@
      padding: 15px 25px;
 }
  .navigation .HeaderMenu2 > li > ul > li ul li a:hover {
-     color: #616c70;
+     color: #000;
 }
  .navigation .HeaderMenu2 li:hover > ul {
      display: block;
@@ -4882,7 +4884,7 @@
      right: -10px;
 }
  .mycart > a:hover:after {
-     color: #616c70;
+     color: #000;
 }
  @media(min-width: 768px){
      .mycart:hover .CartProduct {
@@ -5096,7 +5098,7 @@
  .CartProduct .headerCartBtn:hover {
      color: #fff;
      background: #616c70;
-     border-color: #616c70;
+     border-color: #000;
 }
  .CartProduct.more .SPrice {
      display: block;
@@ -5127,7 +5129,7 @@
      float: right;
      margin-left: 20px;
      display: block;
-     color: #616c70;
+     color: #000;
      font-style: normal;
      font-weight: 300;
      font-size: 18px !important;
@@ -5190,18 +5192,19 @@
      float: left;
      width: 100%;
      margin-top: 25px;
-     background: url('/Uploads/EditorUploads/ccc.jpg') center center;
+     background: #000 !important;
      background-size: cover;
-     height: 500px;
+     height: auto;
+     padding: 50px 0;
      margin-bottom: 0px;
 }
  .ebultenBolumu .ebultenBaslik {
      float: left;
      width: 100%;
-     margin-top: 145px;
+     margin-top: 0px;
      margin-bottom: 25px;
      display: block;
-     color: #2b2b2b;
+     color: #fff;
      font-family: 'Montserrat', sans-serif;
      font-size: 13px;
 }
@@ -5210,6 +5213,7 @@
      font-weight: 500;
      display: block;
      margin-bottom: 30px;
+     color: #fff;
 }
  #divNewsLetter {
      width: 100%;
@@ -5249,15 +5253,16 @@
      margin: 0;
 }
  .footerTopTutucu {
-     background-color: #fff;
-     border-top: 1px solid #efefef;
+     background-color: #000 !important;
+     border-top: 1px solid #000;
      padding: 35px 0 35px 0;
      margin-top: 20px;
+     color: #fff;
 }
  .footerGenelTutucu {
      float: left;
      width: 100%;
-     background: #efefef;
+     background: #000 !important;
 }
  .footerGenelTutucu:after {
      clear: both;
@@ -5267,8 +5272,8 @@
  .footerBankaTutucu {
      float: left;
      width: 100%;
-     background: #efefef;
-     border-top: 1px solid #d7d7d7;
+     background: #000 !important;
+     border-top: 1px solid #333;
      padding: 25px 0;
 }
  .footerBankaTutucu:after {
@@ -5282,7 +5287,7 @@
  .bankaSag {
      float: right;
      font-size: 12px;
-     color: #d7d7d7;
+     color: #fff;
      line-height: 23px;
 }
  .footerTopTutucu .footerLogoTutucu {
@@ -5303,7 +5308,7 @@
  .footerTopTutucu .footerSosyalMedya a {
      display: inline-block;
      margin: 0 10px;
-     color: #5f5f5f;
+     color: #fff;
      font-size: 18px;
 }
  .footerGenelTutucu .dortluBlok {
@@ -5333,7 +5338,7 @@
 }
  .footerGenelTutucu .dortluBlokIcerik span strong {
      display: inline-block;
-     color: #8c8c8c;
+     color: #000;
      font-weight: 400;
 }
  .footerGenelTutucu .dortluAltBlok {
@@ -5342,7 +5347,7 @@
      margin: 45px 0;
 }
  .footerGenelTutucu .dortluAltBlok h5 {
-     color: #2f2f2f;
+     color: #fff;
      font-size: 14px;
      font-weight: 600;
      margin-bottom: 15px;
@@ -5355,7 +5360,7 @@
 }
  .footerGenelTutucu .dortluAltBlok ul li a {
      display: inline-block;
-     color: #8c8c8c;
+     color: #fff;
      font-size: 12px;
      font-weight: 300;
 }
@@ -5364,7 +5369,7 @@
 }
  .footerGenelTutucu .dortluAltBlok span {
      display: inline-block;
-     color: #8c8c8c;
+     color: #fff;
      font-size: 14px;
      margin-bottom: 10px;
 }
@@ -5372,9 +5377,10 @@
      display: inline-block;
      margin: 0 !important;
      line-height: 45px !important;
+     color: #fff !important;
 }
  #ticimaxCopyright a {
-     color: #616c70 !important;
+     color: #fff !important;
 }
  .userLoginBtn, .userSignBtn {
      border: 0 !important;
@@ -5987,7 +5993,7 @@
 }
  body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a {
      background: 0 0;
-     color: #999;
+     color: #000;
      padding: 0 5px;
      float: left;
      margin-left: 0;
@@ -6006,7 +6012,7 @@
  body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a:hover {
 }
  body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.Active i {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst:not(.Slct) .brandlistselection .blockSelect a.Active {
 }
@@ -6064,13 +6070,13 @@
 }
  body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li a.selected {
      text-decoration: underline;
-     color: #616c70;
+     color: #000;
      background: #fff;
 }
  body #divSayfalamaUst:not(.Slct) .brandlistselection .appliedFilter.FiltrelemeUrunAdet span {
      float: left;
      font-size: 12px;
-     color: #616c70;
+     color: #000;
      font-weight: 400;
      line-height: 35px;
      padding: 0;
@@ -6110,10 +6116,10 @@
      font-size: 18px;
 }
  body #divSayfalamaUst.Slct .blockSelect a:hover {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst.Slct .blockSelect a:hover i {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst.Slct .blockSelect .sort_2 {
      display: none;
@@ -6122,10 +6128,10 @@
      display: none;
 }
  body #divSayfalamaUst.Slct .blockSelect a.Active {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst.Slct .blockSelect a.Active i {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst.Slct .brandlistselection .sortingContent {
      float: left;
@@ -6166,7 +6172,7 @@
      margin: 0;
 }
  body #divSayfalamaUst.Slct li.appliedFilter.FiltrelemeUrunAdet span {
-     color: #616c70;
+     color: #000;
      font-size: 12px;
      line-height: 40px;
      font-weight: normal;
@@ -6200,7 +6206,7 @@
 }
  body #divSayfalamaUst.Slct .brandlistselection a.filterOrderInStock.selected:before {
      background: #616c70;
-     border-color: #616c70;
+     border-color: #000;
 }
  body #divSayfalamaUst .category-vertical-filters.top-filters .FiltreUst {
      display: none;
@@ -6244,13 +6250,13 @@
      font-weight: 300;
 }
  body #divSayfalamaUst .filterDeleteContent .appliedFilter a:hover i {
-     color: #616c70;
+     color: #000;
 }
  body #divSayfalamaUst .filterDeleteContent .appliedFilter a i:before {
      content: '\f00d';
 }
  body #divSayfalamaUst .filterDeleteContent .appliedFilter .filter-content span {
-     color: #666;
+     color: #000;
      font-size: 12px;
      text-align: left;
      font-weight: 400;
@@ -6263,7 +6269,7 @@
      display: none !important;
 }
  body #divSayfalamaUst .filterDeleteContent .appliedFilter .filter-content span + span {
-     color: #666;
+     color: #000;
 }
  body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir {
      display: block;
@@ -6550,7 +6556,7 @@
      font-weight: 600;
      display: inline-block;
      background-color: #f1f1f1;
-     color: #777;
+     color: #000;
 }
  .AddGalleryModal .box {
      display: block;
@@ -6685,7 +6691,7 @@
      z-index: 1;
      display: inline-block;
      line-height: 20px;
-     color: #949494;
+     color: #000;
 }
  .AddGalleryModal .FormElements label {
      font-size: 12px;
@@ -6866,11 +6872,11 @@
     }
      body #divSayfalamaUst .category-vertical-filters .vertical-filter-panel .list-group-item:hover:before {
          background: #616c70;
-         border-color: #616c70;
+         border-color: #000;
     }
      body #divSayfalamaUst .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
          background: #616c70;
-         border-color: #616c70;
+         border-color: #000;
     }
      body #divSayfalamaUst .category-vertical-filters .vertical-filter-panel .list-group-item.list-group-item-image {
          background: transparent !important;
@@ -7011,7 +7017,7 @@
     }
      .categorydesign .uNo {
          float: right;
-         color: #999a9d;
+         color: #000;
          font-size: 12px;
     }
      body #divSayfalamaUst .filterDeleteContent {
@@ -8600,7 +8606,7 @@
          text-align: center;
          width: 100%;
          font-weight: 900;
-         color: #616c70;
+         color: #000;
     }
      .spanustSepetteUrunYok:before {
          content: '!';
