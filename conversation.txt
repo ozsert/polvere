@@ -1,0 +1,198 @@
+Ticimax Destek
+Ticimax
+Ticimax Destek Ekibine hoşgeldiniz. Lütfen destek almak istediğiniz konu başlığını seçiniz.
+
+12:33:47
+Rumeysa Keles
+Tasarım Ayarları
+12:33:50
+Ticimax
+Hangi konuda destek almak istersiniz?
+
+12:33:51
+Rumeysa Keles
+Tema değişikliği yapmak istiyorum
+12:33:54
+Ticimax
+Tema değişikliği için https://www.destekalani.com/Icerik/tasarim-ayarlari-54  ilgili dokümanı takip edebilirsiniz.
+12:33:56
+Ticimax
+ilgili dokümanı takip edebilirsiniz.
+
+12:33:56
+Rumeysa Keles
+olmadı
+12:34:01
+Ticimax
+Dokümanlarımızdan yararlanabildiniz mi?
+
+12:34:02
+Rumeysa Keles
+Hayır
+12:34:05
+Ticimax
+Teknik destek müşteri temsilcinize aktarılıyorsunuz. Lütfen bekleyiniz.
+12:34:07
+Ticimax
+Şu anda yoğunluk nedeniyle gecikme yaşanabilir. Kısa bir süre içerisinde temsilciye bağlanacaksınız. Teşekkür ederiz. 
+12:34:08
+Ticimax
+Hoş geldiniz ben Hilal. Size nasıl yardımcı olabilirim?
+12:34:15
+Rumeysa Keles
+merhaba, ana sayfa da ki üst taraftaki menu ler var. hemen teslim tasarım elbisler, indirimli ürünler vs. . bunlardan ilk kırmızı ile yazılmış. bu nereden yapılabiliyor.
+12:35:07
+Hilal
+merhabalar Rümeyse hanım temaya kod ekleyerek yapılabilmektedir
+12:36:29
+Hilal
+tasarım> tema yönetimi
+12:36:40
+Rumeysa Keles
+css me js mi 2 dosya var. 
+12:37:02
+Rumeysa Keles
+orada mısınız
+12:38:51
+Hilal
+ikisini de bu alandan düzenleyebiliyorsunuz
+12:39:07
+Hilal
+gördüğüm kadarıyla kendi temanızı kullanmaktasınız
+12:39:25
+Hilal
+sabit temalardan değil dışarıdan eklenen kodlarla yapmışsınız bu işlemi
+12:39:55
+Hilal
+detaylı kod desteği sağlayamamaktayız bu nedenle
+12:40:13
+Rumeysa Keles
+bu tema pla8 galiba, standart bir tema mı ticimax te yoksa biz mi eklemişiz
+12:40:32
+Rumeysa Keles
+pam8
+12:40:48
+Hilal
+ pam sizler tarafından eklenmiş evet
+12:41:39
+Hilal
+standart bir tema değil
+12:41:48
+Rumeysa Keles
+bir sorum daha olacak. kampanya eklerken sepette inidirm seçtik ama ürün sayfalarında indirim gozukmuyor. indirimin orada da gozukmesi için ne yapmak gerekir
+12:42:15
+Hilal
+destekalani.com üzerinden talep açarsanız özel alan olarak eklenebilir
+12:43:14
+Rumeysa Keles
+ürün detayında indirimli fiyatın gözükmesi için mi
+12:44:06
+Rumeysa Keles
+baska bir kampanya tipi yok degil mi direk bu işi sağlayacak
+12:44:20
+Rumeysa Keles
+boyle mi yapılıyor standart ta
+12:44:45
+Hilal
+evet doğrudur
+12:46:06
+Hilal
+kampanyayı yapıp kampanyanın detayda görünmesi için talep açabilirsiniz
+12:46:30
+Rumeysa Keles
+Tamamdır, teşekkürler, benim temanın altında cssve js dosyaları var. bunlar guncellenerek geliştirme yapılmış. standart bir tema yüklersem bunlara gerek var mıydı
+12:46:54
+Hilal
+standart tema olsa da bu tarz işlemler için destekalani.com üzerinden talep açmanız gerekecekti evet
+12:48:00
+Rumeysa Keles
+anladım, detayda gozukmesi için talep acacagım. SStandart temalar da menulerın rengını ndegistirmesi için gene kod yazmak gerekcecek miydi? onu ognremek istedim
+12:48:58
+Hilal
+evet 
+12:49:19
+Hilal
+veya
+12:49:21
+Hilal
+sizde header tasarlayarak yapabilirsiniz bu işlemi
+12:49:38
+Hilal
+https://www.polveredress.com/admin/headertasarimyonetimi.aspx
+12:49:59
+Hilal
+bu alandan yeni ekle diyerek yeni bir header oluşturabilirsiniz
+12:50:17
+Hilal
+menü rengini değiştirmeniz bu alandan daha kolay olacaktır
+12:50:38
+Rumeysa Keles
+bunu yaptıgımda thema ile cakısmayacak mı ikisidemi aktif olacak su andaki header oradan geliyor galiba
+12:52:04
+Hilal
+çakışma olmaz tamamen header değişir
+12:52:48
+Rumeysa Keles
+tamamdır teşekkürler acacagım destek talepinde indirimli fiyatları da gostermek istiyorum demem lazım, hemen ürün detayında hemde ana sayfadaki listelemerde de değil mi
+12:54:15
+Hilal
+evet
+12:54:43
+Hilal
+ayrıca header için açtım
+12:54:50
+Hilal
+https://www.polveredress.com/Admin/HeaderTasarim/HeaderTasarim.aspx?ID=1
+12:54:52
+Hilal
+kullanmak isterseniz düzenleme yapıp göz işaretini açmanız yeterli
+12:55:11
+Hilal
+https://www.polveredress.com/admin/headertasarimyonetimi.aspx
+12:55:42
+Hilal
+dokümanımız https://www.destekalani.com/Icerik/header-tasarla-747
+12:56:07
+Rumeysa Keles
+bu kullandıgımız tema nedir acaba, 
+12:56:27
+Rumeysa Keles
+burada kayıtlı temalardan mı acaba
+12:56:33
+Rumeysa Keles
+onu mu guncellemişiz biz zamanında
+12:56:40
+Hilal
+https://yenikonsept1.ticimax.net/ bu temaya benziyor ama değişiklik yapılmış
+12:56:59
+Rumeysa Keles
+temayı biz değiştirebiliriz miyiz, teorik olarak calısmayan bir yerler olur mu yoksa gorsellik mi etkilenir sadcece
+12:57:45
+Rumeysa Keles
+hangi tema dan turemiş gorebiliyor musunzu yoksa hiç sistemde tanımlı olmayan tema mı bizimkisi acaba
+12:58:14
+Hilal
+yapılan temanın nereleri etkilediğini net bilemediğim için net bir cevap veremem
+12:58:28
+Hilal
+dediğim gibi https://yenikonsept1.ticimax.net/ bu temadan değiştirilmiş
+12:58:43
+Rumeysa Keles
+değiştirilme kodları sadece css ve js içindeki ek geliştirmeler değil mi?
+12:59:07
+Hilal
+dediğim gibi net bilemem bunu
+12:59:23
+Hilal
+ajansınıza sorabilirsiniz
+12:59:30
+Rumeysa Keles
+ajansımız yok artık :) biz ilgilenecegiz
+12:59:42
+Rumeysa Keles
+bu sizin gonderdiginiz temanın ismi nedir
+12:59:50
+Hilal
+yeni konsept  1 gri
+13:00:07
+Bir mesaj yazın...
