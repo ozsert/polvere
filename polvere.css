@@ -4572,8 +4572,8 @@
      font-weight: 300;
      font-size: 18px;
 }
- .welcome a:hover {
-     color: #000;
+.welcome a:hover {
+    color: #cfcfcf;
 }
  .welcome .headerUyeGiris a {
      font-size: 0;
@@ -4884,7 +4884,7 @@
      right: -10px;
 }
  .mycart > a:hover:after {
-     color: #000;
+     color: #cfcfcf;
 }
  @media(min-width: 768px){
      .mycart:hover .CartProduct {
@@ -5129,12 +5129,15 @@
      float: right;
      margin-left: 20px;
      display: block;
-     color: #000;
+     color: #fff;
      font-style: normal;
      font-weight: 300;
      font-size: 18px !important;
      line-height: 90px;
 }
+ .aramaButonu:hover {
+     color: #cfcfcf;
+ }
  .aramaButonu .fa {
      line-height: 40px;
      font-size: 17px;
@@ -5174,13 +5177,13 @@
      -webkit-appearance: none;
      cursor: pointer;
      position: absolute;
-     border: none;
+     border: 1px solid #000;
      right: 0;
      top: 0;
      padding: 0 25px;
      height: 40px;
-     background: #616c70;
-     color: #fff;
+     background: #fff;
+     color: #000;
      font-size: 12px;
      text-transform: uppercase;
      font-weight: 700;
@@ -5543,7 +5546,7 @@
          width: 30%;
     }
 }
- @media(max-width:767px) {
+@media(max-width:767px) {
      #lang_flag_container {
          top: 47px !important;
          display: none;
@@ -5565,28 +5568,36 @@
      #header {
          background-color: #000;
          position: relative;
-         height: 65px;
+         height: auto;
          border-bottom: none;
          width: 100%;
+         padding: 4px 0 10px;
+         min-height: 62px;
+         margin-bottom: 6px;
     }
-     #header #logo {
-         width: 40%;
-         margin: 0 auto !important;
-         display: table !important;
-         text-align: center;
-         float: none;
-         height: 45px;
+    #header #logo {
+        width: 100%;
+        max-width: 190px;
+        padding: 0;
+        margin: 0 auto !important;
+        display: block !important;
+        text-align: center;
+        float: none;
+        height: auto;
+        line-height: 0;
     }
      #header #logo a {
-         display: table-cell;
+         display: block;
          vertical-align: middle;
          text-align: center !important;
-         height: 65px;
+         height: auto;
          margin: 0 auto;
     }
      #header #logo img {
-         max-width: 100%;
-         max-height: 60px;
+         width: 100%;
+         height: auto;
+         max-width: 190px;
+         max-height: 114px;
          display: inline;
     }
      #header .navigation {
@@ -7347,13 +7358,13 @@
          padding: 0;
     }
     /*MobilMenu*/
-     .menuUstBolum {
-         width: 100%;
-         display: inline-block;
-         float: left;
-         margin-top: 0;
-         border-bottom: 1px solid #e8e8e8;
-         background: #616c70;
+    .menuUstBolum {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        margin-top: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        background: #000;
     }
      .menuUstBolum .CloseBtnMenu {
          float: right;
@@ -7411,7 +7422,7 @@
          bottom: 0;
          width: 360px;
          z-index: 99999;
-         background: #fff;
+         background: #000;
          left:-110%;
          transition: left .3s ease-in-out;
     }
@@ -7440,11 +7451,11 @@
      .mobilMenu .navUl > li > ul li, .mobilMenu .navUl > li {
          float: left;
          width: 100%;
-         border-bottom: 1px solid #e5e5e5;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
          position: relative;
     }
      .mobilMenu .navUl > li > ul li a, .mobilMenu .navUl > li > a {
-         color: #000;
+         color: #fff;
          font-size: 16px;
          font-weight: 500;
          line-height: 50px;
@@ -7504,7 +7515,7 @@
          top: 51px;
          bottom: 0;
          width: 100%;
-         background: #fff;
+         background: #000;
          z-index: 3;
          transition: all 0.3s ease-in-out;
     }
@@ -7512,12 +7523,12 @@
          left: 0;
     }
      .mobilMenu .altMenu .altMenuler .altmenuSol > ul > li .ResimliMenu1AltUl > span, .mobilMenu .altMenu .altMenuMarkalar > span, .mobilMenu .altMenu .altmenuSol > span, .mobilMenu .navUl > li > ul li ul > span, .mobilMenu .navUl > li > ul > span {
-         color: rgba(40, 47, 54, 0.8);
+         color: rgba(255, 255, 255, 0.95);
          font-size: 18px;
          font-weight: 600;
          line-height: 55px;
          padding-left: 55px;
-         border-bottom: 1px solid #e5e5e5;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
          position: relative;
          float: left;
          width: 100%;
@@ -7544,11 +7555,11 @@
      .mobilMenu .altMenu .altMenuler .altmenuSol > ul > li .ResimliMenu1AltUl li, .mobilMenu .altMenu .altMenuler .altmenuSol > ul > li, .mobilMenu .navUl > li > ul li {
          float: left;
          width: 100%;
-         border-bottom: 1px solid #e5e5e5;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
          position: relative;
     }
      .mobilMenu .altMenu .altMenuler .altmenuSol > ul > li .ResimliMenu1AltUl li > a, .mobilMenu .altMenu .altMenuler .altmenuSol > ul > li > a, .mobilMenu .navUl > li > ul li a {
-         color: #282f36;
+         color: #fff;
          font-size: 16px;
          font-weight: 500;
          line-height: 50px;
@@ -7932,44 +7943,44 @@
          height: 15px;
          z-index: auto;
     }
-     .mycart .sepetUrunSayisi {
-         background: #616c70;
-         color: #fff;
-         width: 15px;
-         height: 15px;
-         line-height: 15px;
+    .mycart .sepetUrunSayisi {
+        background: #000;
+        color: #fff;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
     }
-     .mobilMenuAcButton {
-         display: block;
-         position: absolute;
-         top: 0;
-         left: 10px;
-         font-size: 22px;
-         color: #000;
+    .mobilMenuAcButton {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        font-size: 22px;
+        color: #fff;
     }
-     .searchClick {
-         display: block;
-         position: absolute;
-         top: 0;
-         left: 50px;
-         font-size: 22px;
-         color: #000;
+    .searchClick {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        font-size: 22px;
+        color: #fff;
     }
-     .welcomeOpen {
-         display: block;
-         position: absolute;
-         top: 0;
-         right: 50px;
-         font-size: 22px;
-         color: #000;
+    .welcomeOpen {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-size: 22px;
+        color: #fff;
     }
-     .mycartClick {
-         display: block;
-         position: absolute;
-         top: 0;
-         right: 10px;
-         font-size: 22px;
-         color: #000;
+    .mycartClick {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 22px;
+        color: #fff;
     }
      .mobilMenuAcButton span {
          font-size: 9px;
@@ -7977,29 +7988,33 @@
          line-height: 9px;
          display: none;
     }
-     .mobilMenuAcButton i {
-         display: inline-block;
-         vertical-align: top;
-         line-height: 60px;
-         font-weight: 300;
+    .mobilMenuAcButton i {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 60px;
+        font-weight: 300;
+        color: inherit;
     }
-     .searchClick i {
-         display: inline-block;
-         vertical-align: top;
-         line-height: 60px;
-         font-weight: 300;
+    .searchClick i {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 60px;
+        font-weight: 300;
+        color: inherit;
     }
-     .welcomeOpen i {
-         display: inline-block;
-         vertical-align: top;
-         line-height: 60px;
-         font-weight: 300;
+    .welcomeOpen i {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 60px;
+        font-weight: 300;
+        color: inherit;
     }
-     .mycartClick i {
-         display: inline-block;
-         vertical-align: top;
-         line-height: 60px;
-         font-weight: 300;
+    .mycartClick i {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 60px;
+        font-weight: 300;
+        color: inherit;
     }
     /*mobilmenu*/
      .mobilMenu {
@@ -8022,17 +8037,17 @@
          right: 0;
          padding: 0 10px;
     }
-     .SepetUst {
-         float: left;
-         width: calc(100% + 20px);
-         text-align: center;
-         color: #fff;
-         line-height: 50px;
-         font-size: 16px;
-         margin-left: -10px;
-         margin-right: -10px;
-         margin-top: -10px;
-         background: #616c70;
+    .SepetUst {
+        float: left;
+        width: calc(100% + 20px);
+        text-align: center;
+        color: #fff;
+        line-height: 50px;
+        font-size: 16px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -10px;
+        background: #000;
     }
      .SepetUst span {
          display: inline-block;
@@ -8225,11 +8240,11 @@
      .searchContent.active #txtbxArama {
          padding: 0 70px 0 10px;
     }
-     body .searchContent #btnKelimeAra {
-         width: 60px;
-         height: 100%;
-         right: 10px;
-         top: 10px;
+    body .searchContent #btnKelimeAra {
+        width: 60px;
+        height: 100%;
+        right: 10px;
+        top: 10px;
          line-height: 30px;
          text-indent: 0;
          padding: 0;
@@ -8240,9 +8255,9 @@
          border-radius: 0;
          font-size: 15px;
          text-align: center;
-         background: #616c70;
-         color: #fff;
-         transition: ease .3s all;
+        background: #000;
+        color: #fff;
+        transition: ease .3s all;
          transition: all 0.1s ease;
          -webkit-transition: all 0.1s ease;
          -moz-transition: all 0.1s ease;
@@ -8256,15 +8271,15 @@
          height: 40px;
     }
     /*hosgeldin div*/
-     .welcome {
-         display: block;
-         width: 100%;
-         position: absolute;
-         top: 100%;
-         right: 0;
-         bottom: auto;
-         text-align: center;
-         background: #616c70;
+    .welcome {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        text-align: center;
+        background: #000;
          border: none;
          padding: 0;
          margin: 0;
