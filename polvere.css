@@ -5567,7 +5567,11 @@
     }
      #header {
          background-color: #000;
-         position: relative;
+         position: sticky;
+         top: 0;
+         left: 0;
+         right: 0;
+         z-index: 1100;
          height: auto;
          border-bottom: none;
          width: 100%;

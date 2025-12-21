@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1200" viewBox="0 0 2000 1200" shape-rendering="geometricPrecision">
+  <rect width="2000" height="1200" fill="#FFFFFF"/>
+  <text x="1000" y="560"
+        text-anchor="middle"
+        font-family="GFS Didot, Didot, Bodoni MT, 'Times New Roman', serif"
+        font-size="280"
+        fill="#000000"
+        letter-spacing="2">Polvere</text>
+
+  <text x="1000" y="715"
+        text-anchor="middle"
+        font-family="GFS Didot, 'EB Garamond', 'Times New Roman', serif"
+        font-size="56"
+        fill="#000000"
+        style="letter-spacing: 0.42em;">DRESS</text>
+</svg>
