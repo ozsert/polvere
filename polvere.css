@@ -4504,7 +4504,7 @@
  #header {
      clear: both;
      text-align: center;
-     background-color: #000;
+     background-color: #fff;
      position: sticky;
      top: 0;
      left: 0;
@@ -4571,14 +4571,14 @@
 }
  .welcome a {
      float: left;
-     color: #fff;
+     color: #000;
      font-family: 'FontAwesome' !important;
      font-style: normal;
      font-weight: 300;
      font-size: 18px;
 }
 .welcome a:hover {
-    color: #cfcfcf;
+    color: #666;
 }
  .welcome .headerUyeGiris a {
      font-size: 0;
@@ -4639,18 +4639,19 @@
 }
  .hakkimizdaBolumu a {
      float: left;
-     color: #fff;
+     color: #000;
      font-weight: 600;
      font-size: 12px;
      line-height: 35px;
      padding: 0 14px;
-     border: 1px solid rgba(255, 255, 255, 0.3);
+     border: 1px solid rgba(0, 0, 0, 0.3);
      border-left: none;
      border-top: none;
      border-bottom: none;
 }
  .hakkimizdaBolumu a:hover {
-     background: #fff;
+     background: #000;
+     color: #fff;
 }
  .headerSosyalMedya {
      float: left;
@@ -4660,7 +4661,7 @@
  .headerSosyalMedya a {
      float: left;
      display: inline-block;
-     color: #fff;
+     color: #000;
      font-size: 14px;
      margin-left: 7px;
      width: 27px;
@@ -4670,7 +4671,7 @@
      line-height: 27px;
 }
  .headerSosyalMedya a:hover {
-     color: #000;
+     color: #666;
 }
  .usernav {
      display: none;
@@ -4681,13 +4682,13 @@
      top: 39px;
 }
  .favicon a {
-     color: #fff;
+     color: #000;
      font-size: 0;
      font-weight: 500;
      line-height: 25px;
 }
  .favicon a i {
-     color: #a1a3a1;
+     color: #000;
      font-size: 20px;
      margin-right: 9px;
      float: left;
@@ -4706,7 +4707,7 @@
  .navigation .HeaderMenu2 > li > a {
      padding: 0px 23px;
      line-height: 49px;
-     color: #fff;
+     color: #000;
      font-size: 13px;
      display: block;
      font-weight: 600;
@@ -4718,8 +4719,8 @@
      margin-left: 7px;
 }
  .navigation .HeaderMenu2 > li:hover > a {
-     background: #fff;
-     color: #000 !important;
+     background: #000;
+     color: #fff !important;
 }
  .navigation .HeaderMenu2 > li .altMenu {
      position: absolute;
@@ -4833,8 +4834,8 @@
      float: left;
      margin-right: 9px;
      padding-right: 9px;
-     border-right: 1px solid #2b2b2b;
-     color: #fff;
+     border-right: 1px solid #e0e0e0;
+     color: #000;
      font-size: 12px;
      line-height: 14px;
 }
@@ -4849,7 +4850,7 @@
 }
  .mycart > a {
      display: block;
-     color: #fff;
+     color: #000;
      line-height: 40px;
 }
  .mycart > a:after {
@@ -4883,13 +4884,13 @@
      height: 15px;
      line-height: 15px;
      font-size: 10px;
-     background: #616c70;
+     background: #000;
      border-radius: 100%;
      top: 0;
      right: -10px;
 }
  .mycart > a:hover:after {
-     color: #cfcfcf;
+     color: #666;
 }
  @media(min-width: 768px){
      .mycart:hover .CartProduct {
@@ -5134,14 +5135,14 @@
      float: right;
      margin-left: 20px;
      display: block;
-     color: #fff;
+     color: #000;
      font-style: normal;
      font-weight: 300;
      font-size: 18px !important;
      line-height: 90px;
 }
  .aramaButonu:hover {
-     color: #cfcfcf;
+     color: #666;
  }
  .aramaButonu .fa {
      line-height: 40px;
@@ -5200,7 +5201,7 @@
      float: left;
      width: 100%;
      margin-top: 25px;
-     background: #000 !important;
+     background: #fff !important;
      background-size: cover;
      height: auto;
      padding: 50px 0;
@@ -5212,7 +5213,7 @@
      margin-top: 0px;
      margin-bottom: 25px;
      display: block;
-     color: #fff;
+     color: #000;
      font-family: 'Montserrat', sans-serif;
      font-size: 13px;
 }
@@ -5221,7 +5222,7 @@
      font-weight: 500;
      display: block;
      margin-bottom: 30px;
-     color: #fff;
+     color: #000;
 }
  #divNewsLetter {
      width: 100%;
@@ -5261,16 +5262,16 @@
      margin: 0;
 }
  .footerTopTutucu {
-     background-color: #000 !important;
-     border-top: 1px solid #000;
+     background-color: #fff !important;
+     border-top: 1px solid #efefef;
      padding: 35px 0 35px 0;
      margin-top: 20px;
-     color: #fff;
+     color: #000;
 }
  .footerGenelTutucu {
      float: left;
      width: 100%;
-     background: #000 !important;
+     background: #fff !important;
 }
  .footerGenelTutucu:after {
      clear: both;
@@ -5280,8 +5281,8 @@
  .footerBankaTutucu {
      float: left;
      width: 100%;
-     background: #000 !important;
-     border-top: 1px solid #333;
+     background: #fff !important;
+     border-top: 1px solid #efefef;
      padding: 25px 0;
 }
  .footerBankaTutucu:after {
@@ -5295,7 +5296,7 @@
  .bankaSag {
      float: right;
      font-size: 12px;
-     color: #fff;
+     color: #000;
      line-height: 23px;
 }
  .footerTopTutucu .footerLogoTutucu {
@@ -5316,7 +5317,7 @@
  .footerTopTutucu .footerSosyalMedya a {
      display: inline-block;
      margin: 0 10px;
-     color: #fff;
+     color: #000;
      font-size: 18px;
 }
  .footerGenelTutucu .dortluBlok {
@@ -5355,7 +5356,7 @@
      margin: 45px 0;
 }
  .footerGenelTutucu .dortluAltBlok h5 {
-     color: #fff;
+     color: #000;
      font-size: 14px;
      font-weight: 600;
      margin-bottom: 15px;
@@ -5368,7 +5369,7 @@
 }
  .footerGenelTutucu .dortluAltBlok ul li a {
      display: inline-block;
-     color: #fff;
+     color: #000;
      font-size: 12px;
      font-weight: 300;
 }
@@ -5377,7 +5378,7 @@
 }
  .footerGenelTutucu .dortluAltBlok span {
      display: inline-block;
-     color: #fff;
+     color: #000;
      font-size: 14px;
      margin-bottom: 10px;
 }
@@ -5385,10 +5386,10 @@
      display: inline-block;
      margin: 0 !important;
      line-height: 45px !important;
-     color: #fff !important;
+     color: #000 !important;
 }
  #ticimaxCopyright a {
-     color: #fff !important;
+     color: #000 !important;
 }
  .userLoginBtn, .userSignBtn {
      border: 0 !important;
@@ -5571,7 +5572,7 @@
          height: auto;
     }
      #header {
-         background-color: #000;
+         background-color: #fff;
          position: sticky;
          top: 0;
          left: 0;
@@ -7965,7 +7966,7 @@
         top: 0;
         left: 10px;
         font-size: 22px;
-        color: #fff;
+        color: #000;
     }
     .searchClick {
         display: block;
@@ -7973,7 +7974,7 @@
         top: 0;
         left: 50px;
         font-size: 22px;
-        color: #fff;
+        color: #000;
     }
     .welcomeOpen {
         display: block;
@@ -7981,7 +7982,7 @@
         top: 0;
         right: 50px;
         font-size: 22px;
-        color: #fff;
+        color: #000;
     }
     .mycartClick {
         display: block;
@@ -7989,7 +7990,7 @@
         top: 0;
         right: 10px;
         font-size: 22px;
-        color: #fff;
+        color: #000;
     }
      .mobilMenuAcButton span {
          font-size: 9px;
